@@ -94,7 +94,7 @@ interface MessageTypeBadgeProps {
 export const MessageTypeBadge: React.FC<MessageTypeBadgeProps> = ({ type }) => {
   if (type === 'note') {
     return (
-      <span className="badge badge-note" aria-label="Internal staff note">
+      <span className="badge badge-note" aria-label="Internal note — demo">
         <Lock size={12} aria-hidden="true" />
         <span>Internal Note</span>
       </span>

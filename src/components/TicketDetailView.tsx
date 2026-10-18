@@ -263,7 +263,7 @@ export const TicketDetailView: React.FC = () => {
                         </div>
                         {isNote && (
                           <span className="internal-flag-text">
-                            Internal note — demo &bull; Not visible to customer
+                            Internal note — demo
                           </span>
                         )}
                       </div>
@@ -321,7 +321,7 @@ export const TicketDetailView: React.FC = () => {
               }}
             >
               <Lock size={16} aria-hidden="true" />
-              <span>Internal Staff Note</span>
+              <span>Internal Note</span>
             </button>
           </div>
 
@@ -332,7 +332,7 @@ export const TicketDetailView: React.FC = () => {
                 <div className="composer-note-hint">
                   <Lock size={15} aria-hidden="true" />
                   <span>
-                    <strong>Internal Staff Note:</strong> This note is saved for internal records only. It will be styled with an amber badge and lock icon.
+                    <strong>Internal note — demo:</strong> This note is saved for internal records only. It will be styled with an amber badge and lock icon.
                   </span>
                 </div>
               ) : (

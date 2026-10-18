@@ -1,5 +1,7 @@
 # HelpDesk Lite 🎫
 
+> 🌐 **Live Demo:** [https://helpdesk-lite-c34ef.web.app](https://helpdesk-lite-c34ef.web.app)
+
 A fast, modern customer-support ticket management application built with **React**, **TypeScript**, **Vite**, and **vanilla CSS**.
 
 HelpDesk Lite provides support agents with a dashboard to triage customer requests, log public replies and private internal notes, filter and sort ticket queues, and persist all state locally in the browser.
